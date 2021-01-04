@@ -1,7 +1,9 @@
 # ‘food-item’ search using recipe embeddings
 A simple embedding based search engine using gensim, fastText and ElasticSearch
 ![Photo by Lior Shapira on Unsplash](./processed/lior-shapira-GKxsKNTfZd8-unsplash.jpg)
-This is an introductory lesson in building a search ML product. Where we’ll be using a tool (genSim) to train a language model (fastText), and then index the data onto a scalable search infrastructure (ElasticSearch), and write a custom search functionality to try the embedding based search. Indian food is really diverse, 
+This is an introductory lesson in building a search ML product. Where we’ll be using a tool (genSim) to train a language model (fastText), and then index the data onto a scalable search infrastructure (ElasticSearch), and write a custom search functionality to try the embedding based search. 
+
+Indian food is really diverse, and these embeddings did a satisfactory work in suggesting required recipes from different cuisines. It's still a work in progress.
 
 ## Goal
 To create a smart search application using word embeddings on recipe data, to suggest food-items based on content-heavy queries. We’ll be able to use it for multiple purposes, but we’ll just try to generate results given a query, by measuring distances between query-vectors and food-item-vectors on trained embeddings. And then we’ll index the data and use the search functionality.
