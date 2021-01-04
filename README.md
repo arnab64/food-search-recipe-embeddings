@@ -23,6 +23,6 @@ Because, all food items will be uploaded to website by vendor only once, and sin
 
 ### How does the result look like?
 In this report I have performed the second one, i.e. given an explicit query at runtime, I want to use the embeddings to suggest food-items. The obtained results are quite satisfactory from a first look.
-![sample-1](./processed/res2.PNG)
+![sample-1](./processed/res3.PNG)
 ![sample-2](./processed/res1.PNG)
-![sample-3](./processed/res3.PNG)
+![sample-3](./processed/res2.PNG)
