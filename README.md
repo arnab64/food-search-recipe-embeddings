@@ -1,6 +1,6 @@
 # ‘food-item’ search using recipe embeddings
 A simple embedding based search engine using gensim, fastText and ElasticSearch
-This is an introductory lesson in building a search ML product. Where we’ll be using a tool (genSim) to train a language model (fastText), and then index the data onto a scalable search infrastructure (ElasticSearch), and write a custom search functionality to try the embedding based search.
+This is an introductory lesson in building a search ML product. Where we’ll be using a tool (genSim) to train a language model (fastText), and then index the data onto a scalable search infrastructure (ElasticSearch), and write a custom search functionality to try the embedding based search. Indian food is really diverse, 
 
 ## Goal
 To create a smart search application using word embeddings on recipe data, to suggest food-items based on content-heavy queries. We’ll be able to use it for multiple purposes, but we’ll just try to generate results given a query, by measuring distances between query-vectors and food-item-vectors on trained embeddings. And then we’ll index the data and use the search functionality.
@@ -18,8 +18,8 @@ Here, we are trying to build a food/dish-suggestion application, and we want emb
 Because, all food items will be uploaded to website by vendor only once, and since the context doesn’t change, these embeddings for every Dish can be precomputed once, and everytime we have a new linguistic model, and indexed for faster retrieval. 
 
 ### Now, what is our task?
-*suggesting a dish* : no explicit query, we can use user-embeddings based on their past orders
-*searching for a dish* : explicit query provided, create query-embeddings and suggest based on the distance
+- *suggesting a dish* : no explicit query, we can use user-embeddings based on their past orders
+- *searching for a dish* : explicit query provided, create query-embeddings and suggest based on the distance
 
 ### How does the result look like?
 In this report I have performed the second one, i.e. given an explicit query at runtime, I want to use the embeddings to suggest food-items. The obtained results are quite satisfactory from a first look.
