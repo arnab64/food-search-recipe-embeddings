@@ -1,8 +1,8 @@
 # ‘food-item’ search using recipe embeddings
 A simple embedding based search engine using gensim, fastText and ElasticSearch
-![Photo by Annika Palmari on Unsplash](./processed/annika-palmari-J5q4kLEcV0k-unsplash.jpg height="50")
+![Photo by Annika Palmari on Unsplash](./processed/annika-palmari-J5q4kLEcV0k-unsplash.jpg)
 This is an introductory lesson in building a search ML product. Where we’ll be using a tool (genSim) to train a language model (fastText), and then index the data onto a scalable search infrastructure (ElasticSearch), and write a custom search functionality to try the embedding based search. 
-![Photo by Lior Shapira on Unsplash](./processed/lior-shapira-GKxsKNTfZd8-unsplash.jpg width="300" | width=100)
+
 Indian food is really diverse, and these embeddings did a satisfactory work in suggesting required recipes from different cuisines. It's still a work in progress.
 
 ## Goal
@@ -12,7 +12,7 @@ To create a smart search application using word embeddings on recipe data, to su
 Data source: The dataset is a public domain dataset sourced from Kaggle. 6000 Indian Food Recipes Dataset
 Data exploration and preprocessing: All the necessary preprocessing has been done as required for text fields, both in order to train the embeddings and to use them. More details are available in the notebook. I mainly used the two columns Ingredients and Recipe in order to be able to train word vectors on them. 
 Stack used Gensim, ElasticSearch, Pandas 
-![Photo by Syd Wachs on Unsplash](./processed/syd-wachs-epqNIYI6S7E-unsplash.jpg | width=100)
+![Photo by Lior Shapira on Unsplash](./processed/lior-shapira-GKxsKNTfZd8-unsplash.jpg) 
 ## recipeEmbeddings : Trained a fastText language model using Gensim
 Since this dataset is a recipe dataset, we can train a linguistic model on the recipes. Dishes are the result of execution of a sequence of certain steps using certain ingredients. In fact, recipes are made sequential structure which makes it good for sequential tasks on food.
 
