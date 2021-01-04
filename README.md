@@ -13,7 +13,6 @@ Data source: The dataset is a public domain dataset sourced from Kaggle. 6000 In
 Data exploration and preprocessing: All the necessary preprocessing has been done as required for text fields, both in order to train the embeddings and to use them. More details are available in the notebook. I mainly used the two columns Ingredients and Recipe in order to be able to train word vectors on them. 
 Stack used Gensim, ElasticSearch, Pandas 
 
-![Photo by Annika Palmari on Unsplash](./processed/annika-palmari-J5q4kLEcV0k-unsplash.jpg)
 ## recipeEmbeddings : Trained a fastText language model using Gensim
 Since this dataset is a recipe dataset, we can train a linguistic model on the recipes. Dishes are the result of execution of a sequence of certain steps using certain ingredients. In fact, recipes are made sequential structure which makes it good for sequential tasks on food.
 
